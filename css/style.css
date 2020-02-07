@@ -3,3 +3,19 @@ html {
 
 *, *:before, *:after {
   box-sizing: inherit; }
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 16px; }
+
+.wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  background: #f8f8f8;
+  border: solid black 3px;
+  max-width: 624px;
+  width: 100%;
+  padding: 32px; }
